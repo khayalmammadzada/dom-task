@@ -1,0 +1,41 @@
+.maindiv{
+    height: 360px;
+    width: 960px;
+    background-color: rgb(55, 54, 54);
+    margin: 0 auto;
+    position: relative;
+}
+
+.maindiv h2{
+    color: white;
+    position: absolute;
+    left: 43%;
+    top:38%
+
+}
+
+.little{
+    height: 180px;
+    width: 290px;
+    background-color: rgb(55, 54, 54);
+    position: relative;
+    
+}
+
+.little h4{
+    color: white;
+    position: absolute;
+    left: 43%;
+    top:38%
+
+}
+
+.littleboxes{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 10%;
+    
+}
+.littleboxes:first-child{
+    padding-left: 50px;
+}
